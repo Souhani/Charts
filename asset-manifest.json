@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Charts/static/css/main.cb94a3b2.css",
+    "main.js": "/Charts/static/js/main.13f55597.js",
+    "static/js/488.ba9373c4.chunk.js": "/Charts/static/js/488.ba9373c4.chunk.js",
+    "static/media/tire.svg": "/Charts/static/media/tire.45f74df205c33a844b9f34d28aaf2ae6.svg",
+    "static/media/redChart.svg": "/Charts/static/media/redChart.8503db610a5260d16f8ff036011dff0b.svg",
+    "static/media/fluid.svg": "/Charts/static/media/fluid.4c246075a90c2955de315c8f4d0b1153.svg",
+    "index.html": "/Charts/index.html",
+    "static/media/range.svg": "/Charts/static/media/range.d1514c41174aad9bdc71d7a54f3c2418.svg",
+    "static/media/lightning.svg": "/Charts/static/media/lightning.d91f7e312aa5061bf49bb8c33fc7e38c.svg",
+    "static/media/arrowR.svg": "/Charts/static/media/arrowR.b3e42de73e0e7b80db8f3fbc56e78e2f.svg",
+    "main.cb94a3b2.css.map": "/Charts/static/css/main.cb94a3b2.css.map",
+    "main.13f55597.js.map": "/Charts/static/js/main.13f55597.js.map",
+    "488.ba9373c4.chunk.js.map": "/Charts/static/js/488.ba9373c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb94a3b2.css",
+    "static/js/main.13f55597.js"
+  ]
+}
