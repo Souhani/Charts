@@ -1,0 +1,190 @@
+.bar-tow-chart {
+  display: grid;
+  align-content: space-between;
+  gap:50px;
+  width: 500px;
+  background-color: white;
+  padding: 30px 40px;
+  margin: 10px;
+  border-radius: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.bar-tow-chart h1  {
+    display: grid;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    width: min-content;
+}
+
+.bar-tow-chart h1 .title  {
+  color: rgba(44, 44, 44, 1);
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+}
+
+.bar-tow-chart h1 .total  {
+    color: rgba(44, 44, 44, 1);
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+  }
+
+.bar-tow-chart .chart-area {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+  height: 300px;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.bar-tow-chart .dashed-line {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-top: 2px dashed rgba(0, 0, 0, 1);
+  left: 0;
+  z-index: 5;
+}
+
+.bar-tow-chart .bar-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  width: 40px;
+  position: relative;
+  height: 100%;
+}
+
+.bar-tow-chart .day-label {
+    position: absolute;
+    bottom: -30px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 0.5;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.bar-tow-chart .bar {
+  width: 50px;
+  margin: 0 auto;
+  border-radius: 12px;
+  transition: height 0.3s ease;
+  position: absolute;
+  bottom: 0;
+}
+
+.bar-tow-chart .bar.expected {
+  z-index: 1;
+}
+
+.bar-tow-chart .bar-group .dot-container {
+  opacity: 1;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: rgba(246, 227, 227, 1);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.bar-tow-chart .bar-group .dot-container .dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.bar-tow-chart .bar-group:hover .dot-container {
+    display: flex;
+  }
+
+  .bar-tow-chart .bar-group .value-container {
+    min-width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(30, 27, 57, 1);
+    position: absolute;
+    display: none;
+    top: -35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .bar-tow-chart .bar-group .value-container .value {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .bar-tow-chart .bar-group:hover .value-container {
+    display: flex;
+    opacity: 1;
+  }
+
+
+.bar-tow-chart .bar.expected.min {
+  z-index: 1;
+}
+
+.bar-tow-chart .bar.value {
+  z-index: 2;
+}
+
+.bar-tow-chart .bar.value.min {
+}
+
+.select-date {
+    width: 100%;;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.select-date .date-text {
+  display: grid;
+  gap:10px;
+}
+
+.select-date .date-text h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+}
+
+
+.select-date .date-text p {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 0.5;
+  }
+
+  .date-input input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .date-arr.pointer.flipped {
+    transform: rotate(90deg); /* Flip the arrow */
+  }
+  
+

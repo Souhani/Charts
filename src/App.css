@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  margin: 0;
+  background-color: rgba(245, 245, 245, 1);
+  font-family:
+    "DM Sans",
+    serif,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.app .app-cmp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.title {
+    font-size: 20px;
+    color: rgba(36, 39, 49, 1);
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26.04px;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+  }
+  
+  .title span {
+      font-weight: 700;
+    }
+
+.app {
+    display: grid;
+    justify-items: center;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #afa34c;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    resize: none;
+    margin: 10px;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #a08f45;
+    background-color: #e8f5e9;
+}
+
+textarea::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+.app .app-container {
+    display: grid;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.app .app-title {
+    font-size: 36px; 
+    color: #a08f45; 
+    text-align: center; 
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+}
+
+.app .app-label {
+    font-size: 18px; 
+    color: #555; 
+    font-weight: bold;
+    display: inline-block; 
+    margin-bottom: 10px;
+    text-transform: capitalize; 
+    letter-spacing: 0.5px; 
+}
+
+.styled-button {
+    padding: 10px 20px;
+    font-size: 16px; 
+    font-weight: bold; 
+    color: white; 
+    background-color: #a08f45; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+    margin-bottom: 20px;
+}
+
+.styled-button:hover {
+    background-color: #837435; 
+    transform: scale(1.01); 
+}
+
+.styled-button:focus {
+    outline: none; 
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}

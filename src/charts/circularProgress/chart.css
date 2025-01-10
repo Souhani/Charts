@@ -1,0 +1,87 @@
+.circular-bar-container {
+   position:relative;
+   display: grid;
+   justify-items: center;
+   align-items: center;
+   padding: 60px 20px;
+   margin: 10px;
+   border-radius: 20px;
+   height: 232px;
+   width: 266px;
+   transition: all 0.5s ease-in-out;
+}
+.circular-bar-container .text {
+font-size: 24px;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 31.25px;
+}
+
+
+.circular-bar-container .icon-container {
+   border-radius: 100%;
+   width: 38px;
+   height: 38px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.circular-bar-container .speedometer {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .circular-bar-container .circle-background {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   background-color: gray;
+   position: relative;
+ }
+ 
+ .circular-bar-container .circle-fill {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: #00f; /* Change to your desired color */
+   clip-path: polygon(50% 50%, 100% 0, 100% 100%, 50% 100%);
+   transform-origin: center center;
+   transform: rotate(0deg);
+   transition: transform 0.3s ease-out;
+ }
+ 
+ .circular-bar-container .circle-inner {
+   width: 100px;
+   height: 100px;
+   background-color: white;
+   border-radius: 50%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ 
+ .circular-bar-container .speed-range {
+   margin-top: 20px;
+   width: 100%;
+ }
+ 
+
+ .circular-bar-container .bar {
+   width: 160px;
+   height: 160px;
+ }
+
+.circular-gauge h2 {
+   position: absolute;
+   left: 50%;
+   top: 62%;
+   transform: translate(-50%);
+}
+
